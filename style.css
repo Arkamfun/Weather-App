@@ -1,0 +1,26 @@
+body {
+  background: #132043;
+}
+
+.bordered {
+  border: 1px black solid;
+}
+
+.bg-glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
